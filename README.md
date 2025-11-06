@@ -65,6 +65,6 @@ En aquest projecte hem fet ús puntual de **ChatGPT** per:
 - Les branques s’han fusionat a la branca principal (`main`) un cop finalitzades les funcionalitats.  
 
  **Enllaç del repositori GitHub:**  
-[https://github.com/usuari/projecte-biblioteca](https://github.com/usuari/projecte-biblioteca)
+https://github.com/OscarFouz/Biblioteca_Python.git
 
 
