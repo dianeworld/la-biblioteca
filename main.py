@@ -1,13 +1,14 @@
-# ----------------------------------------------
+
+# ------------------------------------------------------------
 # Projecte 05-11-2025: Gestió de Biblioteca (PAC-1)
-# Fitxer: menu.py
+# Fitxer: main.py
 # Autors: Oscar Fouz Robles i Diana Urbano Fernández
 # Data: 05 Novembre de 2025
 # Descripció: - Primer commit
 # Mostrar menú senzill per interactuar amb la biblioteca.
 # Permet afegir llibres i alumnes per fer préstecs, retorns...
 # i consultar la informació desada als fitxers JSON.
-# ----------------------------------------------
+# ------------------------------------------------------------
 
 
 from model import biblioteca
@@ -39,25 +40,25 @@ while True:
     mostrar_menu()                          # Mostrar menú cada vegada
     op = get_option()                       # Llegir opció de l'usuari
 
-    match op:    
+    match op:                               # és la sintaxi de pattern matching introduïda a Python 3.10.
         case 1:
             # Anem a afegir un llibre
             t = input("Títol: ")
             a = input("Autor: ")
             biblio.afegir_llibre(t, a)      # Cridar la funció de biblioteca
-            pass
+            # pass
 
         case 2:
             # Prestar un llibre
             t = input("Títol a prestar: ")
             biblio.prestar_llibre(t)        # Cridar la funció de biblioteca
-            pass
+            # pass
             
         case 3:
             # Retornar un llibre
             t = input("Títol a retornar: ")
             biblio.retornar_llibre(t)       # Cridar la funció de biblioteca
-            pass
+            # pass
         
         case 4:
             # Buscar llibres per autor
@@ -72,8 +73,4 @@ while True:
         case 0:
             # Sortir del programa
             break
-
-
-
-
 

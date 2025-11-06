@@ -1,0 +1,40 @@
+{
+    "llibres": [
+        { "titol": "Aprèn Python Pas a Pas", "autor": "Joan Puig", "prestat": false },
+        { "titol": "Python per a Principiants", "autor": "Marta López", "prestat": false },
+        { "titol": "Projectes amb Python", "autor": "Carlos Díaz", "prestat": false },
+        { "titol": "HTML5 i CSS3 Bàsic", "autor": "Laura Serra", "prestat": false },
+        { "titol": "HTML5 Avançat", "autor": "Pere Roca", "prestat": false },
+        { "titol": "Disseny Web amb CSS3", "autor": "Eva Martínez", "prestat": false },
+        { "titol": "JavaScript per Començar", "autor": "Marc Vidal", "prestat": false },
+        { "titol": "JavaScript Modern", "autor": "Anna Gómez", "prestat": false },
+        { "titol": "Guia de TypeScript", "autor": "David Torres", "prestat": false },
+        { "titol": "TypeScript en Acció", "autor": "Sara Ruiz", "prestat": false },
+        { "titol": "Bootstrap per Desenvolupadors Web", "autor": "Oriol Font", "prestat": false },
+        { "titol": "Introducció a Bootstrap 5", "autor": "Roger Pérez", "prestat": false },
+        { "titol": "Front-End Essentials", "autor": "Clara Soler", "prestat": false },
+        { "titol": "HTML i CSS: Guia Ràpida", "autor": "Jordi Navarro", "prestat": false },
+        { "titol": "JavaScript Interactiu", "autor": "Albert Pons", "prestat": false },
+        { "titol": "Python per a Web amb Flask", "autor": "Núria Gil", "prestat": false },
+        { "titol": "Desenvolupament Web amb Django", "autor": "Enric Costa", "prestat": false },
+        { "titol": "Responsive Design amb CSS", "autor": "Mireia Gómez", "prestat": false },
+        { "titol": "Full Stack amb Python i JavaScript", "autor": "Daniel Ortega", "prestat": false },
+        { "titol": "Creació de Pàgines Web Modernes", "autor": "Helena Vidal", "prestat": false }
+    ],
+    "socis": [
+        "Javier",
+        "José",
+        "Mary",
+        "Andreu",
+        "Oscar",
+        "Nacho",
+        "Franco",
+        "Xavi",
+        "Alex",
+        "Adeel",
+        "Germán",
+        "Andreu",
+        "Diana",
+        "Manu"
+    ]
+}
